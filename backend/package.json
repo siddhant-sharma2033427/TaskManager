@@ -4,7 +4,8 @@
   "description": "A backend for a Task Management Application built with Node.js, Express.js, and MongoDB. It features user authentication using JWT and provides RESTful API endpoints for creating, reading, updating, and deleting tasks. The backend ensures secure and efficient task management with robust error handling and environment configuration.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon './index.js"
   },
   "type": "module",
   "author": "Siddhant Sharma",
