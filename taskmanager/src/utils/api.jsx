@@ -1,6 +1,9 @@
 import axios from "axios";
 // const url = 'http://localhost:5000'
-const url = 'https://taskmanagerbackend-jr6a.onrender.com'
+// const url = 'https://taskmanagerbackend-jr6a.onrender.com'
+// const url = 'https://siddhant-sharma.in'
+const url = `${window.location.origin}`
+
 
 export const createUser = async(params)=>{
     try {
