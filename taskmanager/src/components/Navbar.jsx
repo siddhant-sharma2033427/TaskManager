@@ -14,7 +14,7 @@ const Navbar = ({setAddTask}) => {
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 , fontSize:"100px"}}>
-                    TaskMaster
+                    TaskManager
                 </Typography>
                 <Button  variant="contained" onClick={handleAddTask} sx={{fontSize:"70px",marginRight:"10px"}}>
                     Add Task
