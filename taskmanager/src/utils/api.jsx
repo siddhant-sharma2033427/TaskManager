@@ -1,5 +1,6 @@
 import axios from "axios";
-const url = 'http://localhost:5000'
+// const url = 'http://localhost:5000'
+const url = 'https://taskmanagerbackend-jr6a.onrender.com'
 
 export const createUser = async(params)=>{
     try {
